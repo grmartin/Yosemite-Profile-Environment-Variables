@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>EXPORT_CMD</key>
+		<string>osx_launchctl</string>
+	</dict>
+	<key>Label</key>
+	<string>com.arg1arg2.environment</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>/Users/grmartin/.profile</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+<!-- 
+	<key>StandardErrorPath</key>
+	<string>/tmp/com.arg1arg2.environment.err</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/com.arg1arg2.environment.out</string>
+ -->
+	<key>StartOnMount</key>
+	<true/>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Users/grmartin/.profile</string>
+	</array>
+</dict>
+</plist>
