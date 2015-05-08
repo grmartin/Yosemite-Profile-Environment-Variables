@@ -20,7 +20,7 @@ set_java() {
 
 $EXPORT_CMD GIT_EDITOR="/usr/local/bin/bbedit --new-window -w --resume --encoding utf-8 " 
 $EXPORT_CMD ANDROID_HOME=/Users/grmartin/unix/opt/android
-$EXPORT_CMD GOROOT=`/usr/bin/which go`
+$EXPORT_CMD GOROOT=/usr/local/go
 $EXPORT_CMD GOPATH=/Users/grmartin/go
 
 set_java "1.8.0_25"
